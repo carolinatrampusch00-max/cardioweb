@@ -1,0 +1,98 @@
+{
+    "users": [
+        {
+            "id": "admin-1",
+            "name": "Admin CardioWeb",
+            "email": "admin@cardioweb.com",
+            "password": "admin123",
+            "role": "admin",
+            "specialty": "",
+            "phone": "(11) 4002-8922",
+            "created_at": "2026-07-21 13:43:33"
+        },
+        {
+            "id": "doctor-1",
+            "name": "Dr. Roberto Mendes",
+            "email": "roberto@cardioweb.com",
+            "password": "medico123",
+            "role": "doctor",
+            "specialty": "Cardiologia",
+            "phone": "(11) 99999-1111",
+            "created_at": "2026-07-21 13:43:33"
+        },
+        {
+            "id": "doctor-2",
+            "name": "Dra. Aline Costa",
+            "email": "aline@cardioweb.com",
+            "password": "medico123",
+            "role": "doctor",
+            "specialty": "Arritmologia",
+            "phone": "(11) 99999-2222",
+            "created_at": "2026-07-21 13:43:33"
+        }
+    ],
+    "appointments": [
+        {
+            "id": "appt-1",
+            "doctor_id": "doctor-1",
+            "patient_name": "Ana Silva",
+            "patient_age": 47,
+            "cpf": "123.456.789-00",
+            "phone": "(11) 99999-1111",
+            "symptoms": "Dor no peito, falta de ar e palpitações.",
+            "exam_results": "Hemograma normal; Ecocardiograma sem alterações.",
+            "doctor_observations": "Paciente orientado a retornar em 30 dias.",
+            "prescribed_exams": "Exame de esforço",
+            "status": "Realizada",
+            "date": "2026-07-23",
+            "time": "09:00",
+            "mensagem_recusa": ""
+        },
+        {
+            "id": "appt-2",
+            "doctor_id": "doctor-1",
+            "patient_name": "Carlos Mendes",
+            "patient_age": 61,
+            "cpf": "987.654.321-00",
+            "phone": "(11) 98888-2222",
+            "symptoms": "Fadiga, tontura e pressão elevada.",
+            "exam_results": "Colesterol elevado; Holter normal.",
+            "doctor_observations": "Recomendado acompanhamento com dieta e atividade física.",
+            "prescribed_exams": "Exame de colesterol e glicemia",
+            "status": "Realizada",
+            "date": "2026-07-26",
+            "time": "11:00"
+        },
+        {
+            "id": "appt-3",
+            "doctor_id": "doctor-2",
+            "patient_name": "Beatriz Ramos",
+            "patient_age": 39,
+            "cpf": "456.789.123-11",
+            "phone": "(11) 97777-3333",
+            "symptoms": "Palpitações esporádicas e ansiedade.",
+            "exam_results": "Eletrocardiograma com arritmia leve.",
+            "doctor_observations": "Pacientes com arritmia leve; manter acompanhamento.",
+            "prescribed_exams": "Holter 24h",
+            "status": "Confirmada",
+            "date": "2026-07-24",
+            "time": "14:00"
+        },
+        {
+            "id": "appt-1785851408-6081",
+            "doctor_id": "doctor-1",
+            "patient_name": "Teste Pending",
+            "patient_age": 45,
+            "cpf": "000.111.222-33",
+            "phone": "(11) 98888-0000",
+            "symptoms": "Consulta pendente para validação.",
+            "exam_results": "",
+            "doctor_observations": "",
+            "prescribed_exams": "",
+            "status": "Confirmada",
+            "date": "2026-08-10",
+            "time": "10:30",
+            "mensagem_recusa": ""
+        }
+    ]
+}
